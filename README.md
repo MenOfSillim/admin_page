@@ -23,5 +23,5 @@ cd "d:\2_Develop\2021 Project\admin_page"
 # admin_page_stop 파일 => 메모장으로 만듬
 @echo off
 d:
-"d:\2_Develop\2021 Project\venvs\admin_page\Scripts\deactivate"
+"d:\2_Develop\2021 Project\venvs\admin_page\Scripts\deactivate"  
 ```
