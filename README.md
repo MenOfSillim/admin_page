@@ -1,7 +1,11 @@
 # django_project_v1
 파이썬 &amp; 장고 프로젝트 v1
 
+> 노션 정리
 https://www.notion.so/devdavid/Django-9b77ed94a01e48518403b8a88302a9b7
+
+> 예제
+https://wikidocs.net/72377
 
 ```shell
 # 파이썬 가상환경 설정
