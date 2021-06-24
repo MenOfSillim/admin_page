@@ -8,9 +8,13 @@
     <title>질문 목록 게시판</title>
 </head>
 <body>
+<!-- 네비게이션바 템플릿 가져오기 -->
+{% include "navbar.html" %}
 <!-- 기본 템플릿 안에 삽입될 내용 Start -->
 {% block content %}
 {% endblock %}
 <!-- 기본 템플릿 안에 삽입될 내용 End -->
+<script src="{% static 'jquery-3.6.0.min.js' %}"></script>
+<script src="{% static 'bootstrap.min.js' %}"></script>
 </body>
 </html>
