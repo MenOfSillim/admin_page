@@ -6,8 +6,9 @@
         <thead>
         <tr class="text-center thead-dark">
             <th class="text-center">번호</th>
+            <th class="text-center">추천</th>
             <th style="width:50%">제목</th>
-            <th>글쓴이</th>
+            <th class="text-center">글쓴이</th>
             <th class="text-center">작성일시</th>
         </tr>
         </thead>
@@ -17,6 +18,11 @@
         <tr class="text-center">
             <td class="text-center">
                 {{ question_list.paginator.count|sub:question_list.start_index|sub:forloop.counter0|add:1 }}
+            </td>
+            <td class="text-center">
+                {% if question.voter.all.count > 0 %}
+                <span class="badge badge-warning px-2 py-1">{{ question.voter.all.count }}</span>
+                {% endif %}
             </td>
             <td class="text-left">
                 <a href="{% url 'pybo:detail' question.id %}">{{ question.subject }}</a>
