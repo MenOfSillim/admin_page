@@ -29,3 +29,7 @@ cd "d:\2_Develop\2021 Project\admin_page"
 d:
 "d:\2_Develop\2021 Project\venvs\admin_page\Scripts\deactivate"  
 ```
+
+## 향후 방향 정리
+- Django를 통한 인증서버 구축
+- 다양한 프로젝트 생성을 통한 경험 증진
